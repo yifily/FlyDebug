@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\命令类">
+      <UniqueIdentifier>{8c0a0988-779a-48b6-83b6-b71fb5fcf807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\断点类">
+      <UniqueIdentifier>{7f77bf34-5105-4d1e-a956-cf80b58ddc41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\插件类">
+      <UniqueIdentifier>{0083d5fa-5268-4b99-8b5f-adbfe32daccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\命令类\命令">
+      <UniqueIdentifier>{a1d811a9-ca31-455b-a0c1-539861d32542}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_BreakPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Disasm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Command.h">
+      <Filter>源文件\命令类</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg_Tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FilyDebug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_BreakPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Context.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Disasm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Command.cpp">
+      <Filter>源文件\命令类</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Cmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg_Tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FilyDebug.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
